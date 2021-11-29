@@ -4,5 +4,6 @@
         <attr name="suffixText" format="string"/>
         <attr name="hintText" format="string"/>
         <attr name="suffixIcon" format="reference|color"/>
+        <attr name="isError" format="boolean"/>
     </declare-styleable>
 </resources>

@@ -1,36 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/bd_purple_3_radius_5dp">
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/llInputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bd_purple_3_radius_5dp">
 
+        <EditText
+            android:id="@+id/edtCustomEditText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="This is hint"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingEnd="4dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvSuffixText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hạn mức"
+            android:textColor="@color/yellow"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/ivSuffixIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:src="@drawable/ic_question_orange_24_dp" />
+    </LinearLayout>
     <EditText
-        android:id="@+id/edtCustomEditText"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:background="@android:color/transparent"
-        android:hint="This is hint"
-        android:inputType="textPersonName"
-        android:paddingStart="12dp"
-        android:paddingEnd="4dp"
-        android:textSize="16sp" />
-
+        android:hint="ABCSCACS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <TextView
-        android:id="@+id/tvSuffixText"
+        android:id="@+id/tvError"
+        android:textColor="@color/red"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:layout_marginStart="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Hạn mức"
-        android:textColor="@color/yellow"
-        android:textSize="16sp" />
-
-    <ImageView
-        android:id="@+id/ivSuffixIcon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="12dp"
-        android:src="@drawable/ic_question_orange_24_dp" />
+        android:text="This text indicates an input error."/>
 </LinearLayout>

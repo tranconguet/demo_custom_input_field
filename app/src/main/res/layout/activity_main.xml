@@ -16,4 +16,11 @@
         app:suffixIcon="@drawable/ic_question_orange_24_dp"
         app:suffixText="Hạn mức abc" />
 
+    <Button
+        android:id="@+id/btnTest"
+        android:text="Test"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>

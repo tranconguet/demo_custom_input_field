@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/drawable/bd_purple_3_radius_5dp.xml" value="0.2552083333333333" />
+        <entry key="app/src/main/res/drawable/bd_red_radius_5dp.xml" value="0.2552083333333333" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.4010416666666667" />
         <entry key="app/src/main/res/drawable/ic_question_orange_24_dp.xml" value="0.4010416666666667" />
         <entry key="app/src/main/res/drawable/input_field_background.xml" value="0.27870370370370373" />
+        <entry key="app/src/main/res/drawable/input_field_background_error.xml" value="0.2552083333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/simple_input_field.xml" value="0.31302083333333336" />
       </map>
